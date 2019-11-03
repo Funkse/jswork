@@ -24,5 +24,9 @@ function monkey(){
 function stat(){
     let str = document.getElementById("str").value
     let obj = {}
-    
+    str.split('').reduce((pre,fun) => {
+        pre[fun]?pre[fun]++:pre[fun]=1
+        return obj
+    },  {} )
+    document.getElementById('result').innerText = JSON.stringify(obj)
 }
