@@ -66,7 +66,8 @@
     background-color: #BDBDBD;
     border: 0;
     cursor: pointer;
-    border-radius: 'Arial';
+    border-radius: 2px;
+    font-family: 'Arial';
     font-size: 13.3333px;
 }
 
@@ -108,8 +109,14 @@
     top: 1px;
 }
 
-.cart-bottom-price{
+.cart-total-price{
     color: #FF3334;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cart-bottom-price{
+    color: #FFF;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
