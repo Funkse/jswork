@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Funkse/jswork/issues"
   },
-  "homepage": "https://github.com/Funkse/jswork#readme"
+  "homepage": "https://github.com/Funkse/jswork#readme",
+  "dependencies": {
+    "multer": "^1.4.2",
+    "nodejs-websocket": "^1.7.2"
+  }
 }
